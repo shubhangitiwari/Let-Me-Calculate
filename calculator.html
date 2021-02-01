@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let me calculate</title>
+    <link type="text/css" rel="stylesheet" href="calc.css">
+    <script src="calcjs.js"></script>
+</head>
+<body>
+    <h1>Let Me Calculate!</h1>
+    <div id="outer">
+    <div id="inner">
+        <table>
+            <tr>
+                <td colspan="5"><input type="text" name="user_input" id="user_input"></td>
+            </tr>
+            <tr>
+                <td><button id="one" class="num" name="one" onclick="f1(this)" value="1">1</button></td>
+                <td><button id="two" class="num" name="two" onclick="f1(this)" value="2">2</button></td>
+                <td><button id="three" class="num" name="three" onclick="f1(this)" value="3">3</button></td>
+                <td colspan="2"><button id="equal" name="equal" onclick="feq()">=</button></td>
+            </tr>
+            <tr>
+                <td><button id="four" class="num" name="four" onclick="f1(this)" value="4">4</button></td>
+                <td><button id="five" class="num" name="five" onclick="f1(this)" value="5">5</button></td>
+                <td><button id="six" class="num" name="six" onclick="f1(this)" value="6">6</button></td>
+                <td colspan="2"><button id="clear" name="clear" onclick="fclear()">Clear</button></td>
+            </tr>
+            <tr>
+                <td><button id="seven" class="num" name="seven" onclick="f1(this)" value="7">7</button></td>
+                <td><button id="eight" class="num" name="eight" onclick="f1(this)" value="8">8</button></td>
+                <td><button id="nine" class="num" name="nine" onclick="f1(this)" value="9">9</button></td>
+                <td colspan="2"><button id="back" name="back" onclick="fback()"><--</button></td>
+            </tr>
+            <tr>
+                <td><button id="dot" name="dot" onclick="f1(this)" value=".">.</button></td>
+                <td><button id="zero" class="num" name="zero" onclick="f1(this)" value="0">0</button></td>
+                <td><button id="mod" name="mod" onclick="f1(this)" value="%">%</button></td>
+                <td><button id="plus" name="plus" onclick="f1(this)" value="+">+</button></td>
+                <td><button id="minus" name="minus" onclick="f1(this)" value="-">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="fact" name="fact" onclick="f1(this)" value="!">!</button></td>
+                <td><button id="pow" name="pow" onclick="f1(this)" value="^">^</button></td>
+                <td><button id="root" name="root" onclick="f1(this)" value="sqrt">sqrt</button></td>
+                <td><button id="mult" name="mult" onclick="f1(this)" value="*">*</button></td>
+                <td><button id="divide" name="divide" onclick="f1(this)" value="/">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="b1" name="b1" onclick="f1(this)" value="(">(</button></td>
+                <td><button id="b2" name="b2" onclick="f1(this)" value=")">)</button></td>
+                <td><button id="log" name="log" onclick="f1(this)" value="log">log</button></td>
+                <td><button id="sin" name="sin" onclick="f1(this)" value="sin">sin</button></td>
+                <td><button id="cos" name="cos" onclick="f1(this)" value="cos">cos</button></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</body>
+</html>
